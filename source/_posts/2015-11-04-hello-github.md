@@ -119,5 +119,6 @@ $ git add .
 $ git commit -m "initial commit"
 $ git push -u origin master
 // 既然已经完成此次commit,发布新的内容到blog site
+// 部署的时候出现SSH相关问题参考 https://help.github.com/categories/ssh/
 $ hexo generate --deploy
 ```
