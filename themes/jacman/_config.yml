@@ -79,9 +79,11 @@ toc:
 #### Links
 links:
   云风: http://blog.codingnow.com/
+  Michael Abrash: http://blogs.valvesoftware.com/abrash/
+  oculus: https://developer.oculus.com/
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: wangwh0204  ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button

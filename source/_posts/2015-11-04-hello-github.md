@@ -9,7 +9,7 @@ tags:
 - hexo
 ---
 
-这是我在github上的第一篇blog，本BLOG的内容即描述如何在github上完成本篇BLOG. 所有内容基于如下知识和工具构建:
+这是我在github上的第一篇blog，本blog的内容即描述如何在github上完成本篇blog. <!--more-->所有内容基于如下知识和工具构建:
 # git
 [git](http://git-scm.com/)是一个分布式版本控制系统(VCS)，通过完整的阅读一遍[pro git](http://git-scm.com/book/zh/v2)这本书可以熟悉git及github的概念和用法.
 
@@ -121,4 +121,12 @@ $ git push -u origin master
 // 既然已经完成此次commit,发布新的内容到blog site
 // 部署的时候出现SSH相关问题参考 https://help.github.com/categories/ssh/
 $ hexo generate --deploy
+```
+## 开启评论
+- 申请 多说 short name
+申请多说[二级域名](http://duoshuo.com/create-site/)http://wangwh0204.duoshuo.com/，得到short name : wangwh0204
+- 配置_config.yml
+在blog系统的根目录下配置short name
+``` yaml
+duoshuo_shortname: wangwh0204
 ```
