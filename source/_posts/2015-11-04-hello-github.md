@@ -120,11 +120,11 @@ $ git commit -m "initial commit"
 $ git push -u origin master
 // 既然已经完成此次commit,发布新的内容到blog site
 // 部署的时候出现SSH相关问题参考 https://help.github.com/categories/ssh/
-$ hexo generate --deploy
+$ hexo g -d
 ```
 ## 开启评论
 - 申请 多说 short name
-申请多说[二级域名](http://duoshuo.com/create-site/)http://wangwh0204.duoshuo.com/，得到short name : wangwh0204
+申请多说[二级域名](http://duoshuo.com/create-site/) http://wangwh0204.duoshuo.com/，得到short name : wangwh0204
 - 配置_config.yml
 在blog系统的根目录下配置short name
 ``` yaml
