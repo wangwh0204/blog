@@ -1,10 +1,9 @@
 title: 调试Win32 Service
-date: 2006-01-17 13:30:24
+date: 2006-01-17
 updated: 2015-12-10
 categories: technology
 tags: 
-- win32
-- debug
+- Win32
 ---
 
 关于如何对win32 service程序进行调试的总结。<!--more-->

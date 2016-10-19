@@ -53,8 +53,8 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "I'm not a great programmer; I'm just a good programmer with great habits. ― Kent Beck"    ## your introduction on the bottom of the page
-  intro_line2:  "You've got to find what you love. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. ― Steve Jobs"  ## the 2nd line
+  intro_line1:  "You've got to find what you love. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. ― Steve Jobs"## your introduction on the bottom of the page
+  intro_line2:  "I'm not a great programmer; I'm just a good programmer with great habits. ― Kent Beck"      ## the 2nd line
   weibo: ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:   ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -78,10 +78,11 @@ toc:
 
 #### Links
 links:
-  oculus: https://developer.oculus.com/
   云风: http://blog.codingnow.com/
+  吴军: http://weibo.com/drwujun/
   John Carmack: http://www.twitter.com/ID_AA_Carmack
   Michael Abrash: http://blogs.valvesoftware.com/abrash/
+  Stanford CS: http://cs.stanford.edu/
 
 #### Comment
 duoshuo_shortname: wangwh0204  ## e.g. wuchong   your duoshuo short name.

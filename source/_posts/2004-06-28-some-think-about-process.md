@@ -1,7 +1,7 @@
 title: some think about process
-date: 2004-06-28 20:46:25
-updated: 2015-12-08 09:38
-categories: technology
+date: 2004-06-28
+updated: 2015-12-08
+categories: think
 tags: 
 - RUP
 - OOAD

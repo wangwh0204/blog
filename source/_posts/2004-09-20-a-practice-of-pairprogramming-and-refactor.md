@@ -1,10 +1,10 @@
 title: 一次结队编程及重构实践
-date: 2004-09-20 13:29:24
+date: 2004-09-20
 updated: 2015-12-10
 categories: technology
 tags: 
-- pair programming
-- refactoring
+- Pair Programming
+- Refactoring
 ---
 
 最近一个月，一直处于一种调试状态。郁闷，困顿，愉悦，兴奋各种感受兼而有之。如果说编程有什么乐趣的话就是那种解决问题后的成就感。现在作个总结，让自己重新体会编程中的酸甜苦辣。<!--more-->好，故事是这样子的：
