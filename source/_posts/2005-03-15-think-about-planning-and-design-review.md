@@ -1,10 +1,10 @@
 title: 对维护和扩展既有系统的总结和反思
 date: 2005-03-15
 updated: 2015-12-10
-categories: think
+categories: 
+- [technology]
 tags: 
-- Planning
-- Peer Review
+- SE
 ---
 
 领导安排要去维护和扩展一个系统，要求做学习计划，并做学习成果汇报和评审。这期间发生了一些值得总结和反思的故事.<!--more-->

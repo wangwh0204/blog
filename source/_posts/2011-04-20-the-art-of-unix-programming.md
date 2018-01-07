@@ -1,14 +1,17 @@
 title: The Art of UNIX Programming
 date: 2011-04-20
 updated: 2011-04-20
-categories: reading
+categories: 
+- [reading]
+- [technology]
 tags: 
+- OS
 - UNIX
 ---
 
 &lt;&lt;The Art of UNIX Programming&gt;&gt;的中文版&lt;&lt;UNIX编程艺术&gt;&gt;读书笔记。<!--more-->
 
-# Chapter 1  哲学 Philosopy
+# 01 哲学 Philosopy
 
 Unix哲学是自下向上的，而不是自上而下的。Unix哲学注重实效，立足于丰富的经验。它鼓励那种分清轻重缓急的感觉，以及怀疑一切的态度，并鼓励你以幽默达观的态度对待这些。
 
@@ -61,7 +64,7 @@ Kent Beck : Make it work, Make it right, make it fast
 
 Unix有几个统一性的理念或象征，并塑造了它的API及由此形成的开发风格。其中最重要的一点应当是“一切皆文件”模型及在此基础上建立的管道概念。
 
-# Chapter 4 模块性
+# 04 模块性
 There are two ways of constructing a software design. One is to make it so simple that there are obviously no deficiencies; the other is to make it so complicated that there are no obvious deficiencies. The first method is far more difficult.
 
 模块化代码的首要特质就是封装。封装良好的模块不会过多向外部披露自身的细节，不会直接调用其他模块的实现码，也不会胡乱共享全局数据。模块之间通过应用程序编程接口(API)--一组严密，定义良好的程序调用和数据结构来通信。这就是模块化原则的内容。
@@ -78,7 +81,7 @@ The Pragmatic Programmer针对一类特别重要的正交性明确提出了一�
 
 完美之道，不在无可增加，而在无可删减。
 
-# Chapter 5 Textuality: Good protocols Make Good Practice
+# 05 Textuality: Good protocols Make Good Practice
 互用性，透明性，可扩展性和存储/事务处理的经济性--这些都是设计文件格式和应用协议时需要考虑的重要方面。互用性和透明性要求我们在此类设计中要重点考虑数据表达的清晰问题，而不是首先考虑实现的方便性和可能达到的最高性能。既然二进制协议很难扩展和干净地抽取子集，可扩展性当然青睐文本化协议。事务处理的经济性则会提出相反的要求--但我们应看到，首先考虑这个标准就是一种过早优化，不这么做往往是明智选择。
 
 使用二进制协议的唯一正当理由是：如果要处理大批量的数据集，因而确实关注能否在介质上获得最大位密度，或是非常关心将数据转化为芯片核心结构所必须的时间或指令开销。 大图像和多媒体数据的格式有时可以算是前者的例子，对延时有严格要求的网络协议有时则可以算是后者的例子。
@@ -87,12 +90,12 @@ PNG格式是二进制文件格式中一个经过周密设计的优秀例子。PN
 
 Marshall Rose的RFC 3117 (On the Design of Application Procotol)很好概况了互联网应用协议设计中的种种问题。
 
-# Chapter 6 Transparency: Let There Be Light
+# 06 Transparency: Let There Be Light
 Beauty is more important in computing than anywhere else in technology because software is so complicated. Beauty is the ultimate defense against complexity.
 Machine Beauty : Elegance and the Heart of Technology 1998
   --- David Gelernter
 
-# Chapter 7 Multiprogramming: Separating Process to separate Function
+# 07 Multiprogramming: Separating Process to separate Function
 Unix最具特点的程序模块化技法就是将大型程序分解成多个协作进程。
 
 总的来说，线程不是降低而是提高了全局复杂度，因此，除非万不得已，尽量避免使用线程。
@@ -108,5 +111,5 @@ Andrew S.Tanenbaum 和 Robbert van Renesse在&lt;&lt;A Critique of the Remote Pr
 
 Unix传统强烈赞成使用透明，可显的接口。这是UNIX文化不断坚持文本协议IPC的动力。
 
-# Chapter 10 Configuration: Starting on the Right Foot
+# 10 Configuration: Starting on the Right Foot
 

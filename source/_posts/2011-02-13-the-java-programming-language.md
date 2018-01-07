@@ -1,14 +1,16 @@
 title: The Java Programming Language 3rd
 date: 2011-02-13
 updated: 2011-04-03
-categories: reading
+categories: 
+- [reading]
+- [technology]
 tags: 
 - Java
 ---
 
 &lt;&lt;The Java Programming Language 3rd&gt;&gt;的中文版&lt;&lt;Java编程语言&gt;&gt;读书笔记。<!--more-->
 
-# chapter 1   概述
+# 01 概述
 类包括成员，field和method
 method名字和parameter列表一起组成method的签名(signature)。
 parameter
@@ -79,7 +81,7 @@ try-catch-finally
 import 	package
 
 
-# chapter 2 类和对象
+# 02 类和对象
 类成员
 - field : 与类及其对象相关联的数据变量，其中保存着类或对象的状态。
 - method : 包含类的可执行代码并定义了对象的行为。
@@ -121,7 +123,7 @@ Java 中，方法的所有参数都是"by value"的。当参数是对象引用�
 
 natvie方法不能声明为abstract或者strictfp类型。
 
-# chapter 3 继承类
+# 03 继承类
 
 继承类叫做它所继承的类的子类(subclass)或继承类(extended class)，被继承的类叫做超类(superclass)。
 
@@ -176,7 +178,7 @@ IsA  VS HasA
 
 JAVA使用了面向对象程序设计的多重继承模型而没有使用多重继承。通过使用 接口继承 达到多重继承的优点并且没有多重继承的问题，比如菱形问题。
 
-# chapter 4 接口
+# 04 接口
 interface没有任何实现，也就不可以创建接口的实例。
 JAVA允许对接口进行多重继承，但是只支持实现的单重继承。
 
@@ -189,7 +191,7 @@ interface
 接口也可以利用关键字extends继承，与类不同，接口可以继承多个接口。
 
 
-# chapter 5 嵌套类和接口
+# 05 嵌套类和接口
 
 nested type被认为是其包装类型(enclosing type)的一部分，它们互相信任，能够访问对方的所有成员。
 
@@ -201,7 +203,7 @@ nested type被认为是其包装类型(enclosing type)的一部分，它们互�
 
 我们可以在代码块中定义内部类，这些局部内部类(local inner class)布什代码所在类的成员，但对本代码块是局部的，就像局部变量那样。这样的类在定义它们的块外是完全不能访问的。
 
-# chapter 6 语言符号，运算符和表达式
+# 06 语言符号，运算符和表达式
 
 JAVA有三种形式的注释:
 // comment
@@ -239,7 +241,7 @@ int ia[] = new int[3]
 
 整型是通过去掉高位进行转换的。
 
-# chapter 7 控制流 
+# 07 控制流 
 
 if () { } else { }
 
@@ -261,7 +263,7 @@ continue语句只能在循环中使用(for, while或者do)，它把控制体转�
 无标号的continue : continue;(转移控制权到最内层循环体的结尾。)
 和有标号的continue : continue label;(转移控制权到标号指定循环的结尾，它的标号必须属于某个循环语句)
 
-# chapter 8 异常
+# 08 异常
 Java中的异常是对象。所有的异常类型，即所有为throwable对象设计的类，必须继承JAVA中的Throwable类或其子类。
 
 ``` java
@@ -276,12 +278,12 @@ try {
 每个错误都有借口，但不管如何辩解，错误终究还是错误。
 					------G.K.Cheserton 英国作家
 
-# chapter 9 字符串
+# 09 字符串
 字符串是具有bulit-in语言支持的标准对象。String对象是不可改变(read-only)的，因此JAVA还为可变的字符串提供了StringBuffer类。
 
 在对象上使用==运算符只是测试两个引用是否指向同一个对象，而不是测试他们是否是相同的对象。
 
-# chapter 10 线程
+# 10 线程
 
 ``` java
 public class Thread {

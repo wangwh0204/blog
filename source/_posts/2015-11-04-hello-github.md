@@ -1,7 +1,8 @@
 title: hello github
 date: 2015-11-04
 updated: 2015-12-08
-categories: technology
+categories: 
+- [others]
 tags: 
 - git
 - github
@@ -79,7 +80,8 @@ $ git clone https://github.com/wuchong/jacman.git themes/jacman
       title: hello github
       date: 2015-11-04
       updated: 2015-12-08 13:38
-      categories: others
+      categories:
+      - [others]
       tags: 
       - git
       - github

@@ -1,8 +1,10 @@
-title: Think much but do little from 2009 to 2011 
+title: Work notes 2009.03 ~ 2011.02
 date: 2011-09-20
 updated: 2016-10-19
-categories: think
-tags: 
+categories: 
+- [career]
+tags:
+- Android
 ---
 
 记录2009.03 ～ 2011.09期间关于工作，职业的思考，总的来说，想的很多，做的太少。主要的问题是眼界狭隘，井底之蛙，仅仅只从技术角度考虑问题，而从未从商业，行业，公司，团队的角度考虑过工作内容...<!--more-->

@@ -1,7 +1,8 @@
 title: 调试Win32 Service
 date: 2006-01-17
 updated: 2015-12-10
-categories: technology
+categories: 
+- [technology]
 tags: 
 - Win32
 ---
