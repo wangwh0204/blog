@@ -116,6 +116,7 @@ hexo会将md文件处理成可以静态访问的web页面，并自动推送到gi
 ``` bash
 $ git init
 $ git remote add origin git@github.com:wangwh0204/blog.git
+// 如果是在新机器上使用，需要使用 git clone git@github.com:wangwh0204/blog.git，否则每次都要输入密码
 // 要确保.gitignore里面有node_modules/ public/ .deploy
 $ git add .
 $ git commit -m "initial commit"
