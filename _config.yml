@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 知行合一，修学储能，敬天爱人，终身学习
-subtitle: Focus on Real-World Computing (Computer Graphics, Computer Vision, Robotics), applying to Smart Robots
+title: 知行合一，敬天爱人
+subtitle: Real-World Computing ： Computer Graphics, Computer Vision, Robotics
 description: steven's thinking about career, life, robot, education
 author: steven wang
 language: zh-CN
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://wangwh0204.github.io
+url: https://wangwh0204.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

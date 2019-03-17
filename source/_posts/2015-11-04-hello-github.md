@@ -46,7 +46,7 @@ $ npm install hexo-deployer-git --save
 ```
 - 配置_config.yml
 ``` yaml
-title: 知行合一
+title: 知行合一，敬天爱人
 subtitle: just do IT. keep it simple & stupid.
 description: steven's thinking
 author: steven wang
@@ -126,10 +126,6 @@ $ git push -u origin master
 $ hexo g -d
 ```
 ## 开启评论
-- 申请 多说 short name
-申请多说[二级域名](http://duoshuo.com/create-site/) http://wangwh0204.duoshuo.com/，得到short name : wangwh0204
-- 配置_config.yml
-在blog系统的根目录下配置short name
-``` yaml
-duoshuo_shortname: wangwh0204
-```
+多说 不在运营，使用[Gitment](https://github.com/imsun/gitment)作为新的评论系统。Gitment的idea很有创意，复用了github的issue comment。配置参考：
+https://leejoker.github.io/2017/10/11/%E6%8A%98%E8%85%BEhexo%E7%B3%BB%E5%88%97%E4%B9%8B%E5%9C%A8jacman%E9%87%8C%E9%9B%86%E6%88%90gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/#
+

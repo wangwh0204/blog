@@ -1,12 +1,16 @@
-<% if (theme.duoshuo_shortname && page.comments){ %>
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="<%- page.path %>" data-title="<%- page.title %>" data-url="<%- page.permalink %>"></div>
+  <div id="blog_comment"></div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+  var gitment = new Gitment({
+    owner: 'wangwh0204',
+    repo: 'https://github.com/wangwh0204/wangwh0204.github.io',
+    oauth: {
+      client_id: '5dedcc7568a5dbf86c24',
+      client_secret: '22f579b33c77a37ffae541a2a21741ff1c1aff69',
+    },
+  })
+  gitment.render('blog_comment')
+  </script>
 </section>
-<% } %>
-<% if( (config.disqus_shortname || theme.disqus_shortname) && page.comments) { %>
-<section id="comments" class="comment">
-  <div id="disqus_thread">
-    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-  </div>
-</section>
-<% } %>
