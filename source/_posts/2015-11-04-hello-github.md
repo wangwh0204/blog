@@ -2,7 +2,7 @@ title: hello github
 date: 2015-11-04
 updated: 2015-12-08
 categories: 
-- [others]
+- [technology]
 tags: 
 - git
 - github
