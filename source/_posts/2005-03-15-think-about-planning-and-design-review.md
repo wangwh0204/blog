@@ -2,7 +2,7 @@ title: 对维护和扩展既有系统的总结和反思
 date: 2005-03-15
 updated: 2015-12-10
 categories: 
-- [technology]
+- [management]
 tags: 
 - SE
 ---

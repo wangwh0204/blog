@@ -2,7 +2,7 @@ title: 一次结队编程及重构实践
 date: 2004-09-20
 updated: 2015-12-10
 categories: 
-- [technology]
+- [management]
 tags: 
 - Agile
 ---
