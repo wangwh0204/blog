@@ -1,5 +1,5 @@
 title: Porting UWP APP to Hololens
-date: 2017-09-01
+date: 2017-06-01
 updated: 2019-02-15
 categories: 
 - [technology]

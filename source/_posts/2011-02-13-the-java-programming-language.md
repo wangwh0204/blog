@@ -2,7 +2,6 @@ title: The Java Programming Language 3rd
 date: 2011-02-13
 updated: 2011-04-03
 categories: 
-- [reading]
 - [technology]
 tags: 
 - Java

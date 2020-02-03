@@ -2,7 +2,6 @@ title: Modern Operating Systems 2nd
 date: 2011-08-10
 updated: 2011-08-10
 categories: 
-- [reading]
 - [technology]
 tags: 
 - OS

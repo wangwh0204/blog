@@ -2,7 +2,6 @@ title: The Art of UNIX Programming
 date: 2011-04-20
 updated: 2011-04-20
 categories: 
-- [reading]
 - [technology]
 tags: 
 - OS

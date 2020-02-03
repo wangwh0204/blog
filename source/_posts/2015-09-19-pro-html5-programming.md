@@ -2,7 +2,6 @@ title: HTML5 高级程序设计
 date: 2015-09-19
 updated: 2015-09-28
 categories: 
-- [reading]
 - [technology]
 tags: 
 - HTML5

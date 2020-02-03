@@ -2,7 +2,6 @@ title: JavaScript DOM编程艺术
 date: 2015-10-09
 updated: 2015-11-09
 categories: 
-- [reading]
 - [technology]
 tags: 
 - javascript

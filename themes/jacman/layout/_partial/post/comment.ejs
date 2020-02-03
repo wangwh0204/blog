@@ -1,3 +1,4 @@
+<% if (theme.gitment && page.comments){ %>
 <section id="comments" class="comment">
   <div id="blog_comment"></div>
   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
@@ -14,3 +15,4 @@
   gitment.render('blog_comment')
   </script>
 </section>
+<% } %>

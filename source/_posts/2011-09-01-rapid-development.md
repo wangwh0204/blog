@@ -2,7 +2,6 @@ title: Rapid Development
 date: 2011-09-01
 updated: 2011-09-10
 categories: 
-- [reading]
 - [management]
 tags: 
 - SE

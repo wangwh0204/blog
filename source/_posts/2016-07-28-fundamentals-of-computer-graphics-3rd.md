@@ -1,8 +1,7 @@
 title: Fundamentals of Computer Graphics 3rd
 date: 2016-07-28
 updated: 2016-10-02
-categories:
-- [reading]
+categories: 
 - [technology]
 tags: 
 - Computer Graphics

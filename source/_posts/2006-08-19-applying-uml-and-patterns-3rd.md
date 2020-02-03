@@ -2,7 +2,6 @@ title: Applying UML and Patterns - An Introduction to Object-Oriented Analysis a
 date: 2006-08-19
 updated: 2006-08-19
 categories: 
-- [reading]
 - [technology]
 tags: 
 - UML

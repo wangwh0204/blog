@@ -2,7 +2,6 @@ title: Linux Kernel Development 2nd
 date: 2011-06-02
 updated: 2011-06-02
 categories: 
-- [reading]
 - [technology]
 tags: 
 - OS

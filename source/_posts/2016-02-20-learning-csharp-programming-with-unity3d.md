@@ -1,8 +1,7 @@
 title: Learning C# Programming with Unity3D
 date: 2016-02-20
 updated: 2016-05-27
-categories:
-- [reading]
+categories: 
 - [technology]
 tags: 
 - C#

@@ -2,7 +2,6 @@ title: Go语言编程
 date: 2015-09-01
 updated: 2015-09-11
 categories: 
-- [reading]
 - [technology]
 tags: 
 - Go

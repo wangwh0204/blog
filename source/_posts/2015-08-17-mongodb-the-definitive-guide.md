@@ -2,7 +2,6 @@ title: MongoDB - The Definitive Guide
 date: 2015-08-17
 updated: 2015-09-01
 categories: 
-- [reading]
 - [technology]
 tags: 
 - mongodb
