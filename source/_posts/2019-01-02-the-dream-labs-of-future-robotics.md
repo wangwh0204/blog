@@ -79,7 +79,7 @@ Kaarta制造的3D手持扫描和地图生成系统，可以在手持设备上实
 “我们的贡献是从传感器中获取大量数据，并快速高效地对其进行优化，”赫伯特说，他将这归功于先进的数学和算法。
 
 Watch as Kaarta CEO Kevin Dowling demonstrates the system. He’s also a product of the doctoral program at CMU.
-Kaarta的CEO凯文·道林演示了这个[系统](http://bit.ly/2Off8H4)。他也出自CMU博士项目。
+Kaarta的CEO凯文·道林演示了这个[系统](http://bit.ly/2Off8H4)。他也来自CMU博士项目。
 
 The system’s compact size and customizable imaging hardware allow it to be mounted to ground or aerial vehicles, such as drones, for interior and exterior use. Right now, the company’s products are directed toward infrastructure inspectors, surveyors, engineers, architects and facilities planners. But imagine the possibilities for first responders, hazmat teams, law enforcement, and down the road, for self-driving cars.
 该系统小巧的尺寸和可定制的成像硬件使其能够安装在地面或空中交通工具(如无人机)上，供内部和外部使用。目前，该公司的产品面向基建检查员、测量师、工程师、建筑师和设施规划者。想象一下，对急救人员、危险品小组、执法人员以及未来的自动驾驶汽车来说，同样也是适用的。
@@ -89,7 +89,7 @@ Speaking of first responders, that brings us to a peculiar-looking robot develop
 说到急救人员，这让我们想到了一个在CMU实验室开发的奇特机器人。它能去人类不能去的地方
 
 The Snakebot robot undulates its way into tight spaces and sticky situations, where the environment may be unhospitable and unpredictable for people, and even canines. Snakebot was on the ground for search and rescue efforts after a disastrous earthquake hit Mexico City last fall. Then this past spring, it was named Ground Rescue Robot of the Year.
-蛇形机器人能在狭窄的空间和黏黏的环境中蜿蜒前行，那里的环境对人类甚至犬科动物来说都是不友好和不可预测的，甚至对犬科动物也是如此。去年秋天墨西哥城发生灾难性地震后，蛇形机器人就在地面上进行搜救工作。今年春天，它被评为年度地面救援机器人。[!img](https://www.ri.cmu.edu/wp-content/uploads/2018/10/Oct2018_Carnegie-Mellon-Snake-Robot7276.jpg)
+蛇形机器人能在狭窄的空间和黏黏的环境中蜿蜒前行，那里的环境对人类甚至犬科动物来说都是不友好和不可预测的，甚至对犬科动物也是如此。去年秋天墨西哥城发生灾难性地震后，蛇形机器人就在地面上进行搜救工作。今年春天，它被评为年度[地面救援机器人](https://www.ri.cmu.edu/wp-content/uploads/2018/10/Oct2018_Carnegie-Mellon-Snake-Robot7276.jpg)。
 
 Howie Choset, a professor of computer science and Director of the CMU Biorobotics Lab where Snakebot was developed, says they are proud of the robot and its accomplishments to date. Still, challenges remain.
 计算机科学教授、蛇形机器人所在的CMU生物机器人实验室主任Howie Choset说，他们为这种机器人及其迄今取得的成就感到骄傲。尽管如此，挑战依然存在。
@@ -490,7 +490,8 @@ Stanford [PAIR](http://pair.stanford.edu)是李飞飞, Silvio Savarese, Leonidas
 
 - Yangyan Li [李扬彦](http://yangyan.li/)
 中国科大博士, Stanford postdoctoral
-His primary research interests fall in the field of Computer Graphics and Computer Vision, with an emphasis on 3D learning and vision. 3D perception for autonomous driving, including but not limited to point cloud/image based 3D reconstruction, recognition, segmentation, detection and pose estimation.
+
+> His primary research interests fall in the field of Computer Graphics and Computer Vision, with an emphasis on 3D learning and vision. 3D perception for autonomous driving, including but not limited to point cloud/image based 3D reconstruction, recognition, segmentation, detection and pose estimation.
 
 - Cewu Lu [卢策吾](http://mvig.sjtu.edu.cn/)
 上海交大研究教授
@@ -500,10 +501,9 @@ His primary research interests fall in the field of Computer Graphics and Comput
 - Hao Su [苏昊](http://cseweb.ucsd.edu/~haosu/)
 PointNet的第一作者
 本科毕业于北航高等理工学院，2017年获得Stanford Ph.D，在ucsd担任Assistant Professor at UC San Diego
+博士论文 ： [Deep 3D Representation Learning](http://cseweb.ucsd.edu/~haosu/papers/thesis_finalversion.pdf)
 
 > Professor Su is interested in fundamental problems in broad disciplines related to artificial intelligence, including machine learning, computer vision, computer graphics, robotics. 
-
-他的博士论文 ： [Deep 3D Representation Learning](http://cseweb.ucsd.edu/~haosu/papers/thesis_finalversion.pdf)
 
 - Charles Ruizhongtai Qi [祁芮中台](http://web.stanford.edu/~rqi/)
 PointNet, PointNet++, Frustum PointNets的第一作者
