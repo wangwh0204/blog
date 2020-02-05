@@ -116,8 +116,9 @@ hexo会将md文件处理成可以静态访问的web页面，并自动推送到gi
 ``` bash
 $ git init
 $ git remote add origin git@github.com:wangwh0204/blog.git
-// 如果是在新机器上使用，需要使用 git clone git@github.com:wangwh0204/blog.git，否则每次都要输入密码
+// 如果是在新机器上使用，需要使用 git clone git@github.com:wangwh0204/blog.git
 // 要确保.gitignore里面有node_modules/ public/ .deploy
+// 如果每次要求输入密码可能是一开始生成秘钥的时候输入了密码。参考[解决方法](https://blog.timbby.top/2019/06/13/git-need-passphrase/)，重置密码为‘’即可
 $ git add .
 $ git commit -m "initial commit"
 $ git push -u origin master
@@ -125,7 +126,6 @@ $ git push -u origin master
 // 部署的时候出现SSH相关问题参考 https://help.github.com/categories/ssh/
 $ hexo g -d
 ```
-## 开启评论
-多说 不在运营，使用[Gitment](https://github.com/imsun/gitment)作为新的评论系统。Gitment的idea很有创意，复用了github的issue comment。配置参考：
-https://leejoker.github.io/2017/10/11/%E6%8A%98%E8%85%BEhexo%E7%B3%BB%E5%88%97%E4%B9%8B%E5%9C%A8jacman%E9%87%8C%E9%9B%86%E6%88%90gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/#
+## 如果开启评论
+多说 不在运营，使用[Gitment](https://github.com/imsun/gitment)作为新的评论系统。Gitment的idea很有创意，复用了github的issue comment。[配置参考](https://leejoker.github.io/2017/10/11/%E6%8A%98%E8%85%BEhexo%E7%B3%BB%E5%88%97%E4%B9%8B%E5%9C%A8jacman%E9%87%8C%E9%9B%86%E6%88%90gitment%E8%AF%84%E8%AE%BA%E7%B3%BB%E7%BB%9F/#)
 
